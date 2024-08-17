@@ -301,4 +301,122 @@ main {
     margin-top: 50px;
     transition: 0.5s ease-in-out;
 }
+.section_3 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.s3_left {
+    width: 50%;
+    height: 600px;
+    background-image: url(../img/Rectangle\ 9\ \(1\).png);
+}
+
+.s3_right {
+    width: 50%;
+    height: 600px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --------------------------------- */
+.s3_right h1,
+.section_4 h1 {
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    height: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.s3_right h1::before,
+.section_4 h1::before {
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 2px;
+    background-color: #ffffffd0;
+    bottom: 0;
+}
+
+/* ------------------------ */
+.s3_right p {
+    width: 471px;
+    height: 173px;
+    color: #fff;
+    text-align: center;
+    margin: 40px 0 100px;
+}
+
+.s3_right button {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #fff;
+    background: none;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+
+}
+
+/* Section4 */
+.section_4 {
+    width: 100%;
+    background-color: #000;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.s4_box {
+    width: 300px;
+    height: 400px;
+
+}
+
+.img_s3_left {
+    width: 270px;
+    height: 300px;
+    background-color: #191B1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s4_box p {
+    font-family: Playfair Display;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30.33px;
+    color: #fff;
+}
+
+.s4_boxs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* Secton5 */
+.section5 {
+    width: 100%;
+    height: 360px;
+    background-color: #0F0F0F;
+    padding: 60px 200px 80px;
+}
+.s5_img{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
 
